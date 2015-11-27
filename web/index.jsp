@@ -12,6 +12,17 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="AgregarCedente" name="registro" class="form-horizontal">
+                        <h1>Registro de Cedente</h1>
+                        <label>Rut</label>
+                        <input name="txtRut" class="form-control input-sm" type="text" />
+                        <label>Nombre</label>
+                        <input name="txtNombre" class="form-control input-sm" type="text" />
+                        <label>Rubro</label>
+                        <input name="txtRubro" class="form-control input-sm" type="text" />
+                        <input type="hidden" name="op" value="Registro">
+                         <br /> 
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Registrar</button>
+                    </form>
     </body>
 </html>
